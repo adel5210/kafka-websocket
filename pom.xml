@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.adel</groupId>
-    <artifactId>kafka-websocket</artifactId>
+    <artifactId>kafkawebsocket</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>kafka-websocket</name>
     <description>Demo project for Spring Boot</description>
@@ -71,7 +71,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Finchley.SR1</version>
+                <version>2023.0.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

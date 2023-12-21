@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: inbound
+      bindings:
+        inbound-in-0:
+          destination: inbound
+          contentType: application/json
+      kafka:
+        binder:
+          brokers: localhost:29092
+          auto-create-topics: true
